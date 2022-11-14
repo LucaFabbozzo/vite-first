@@ -1,36 +1,32 @@
 <script>
 export default {
-  name: "AppTitle",
+  name: "Another",
   data() {
     return {
-      title: "La mia prima app con Vite!",
+      main: "altro componente",
     };
   },
 };
 </script>
 
-
 <template>
   <div class="container">
-    <h2>{{ title }}</h2>
+    <h3>{{ main }}</h3>
   </div>
 </template>
 
 
 <style scoped>
-h2 {
-  color: #272727;
-  text-transform: uppercase;
-}
 .container {
+  background-color: brown;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 100px auto;
-  width: 50%;
+  width: 20%;
   height: 100px;
   text-align: center;
-  background-color: #f2f2f2;
   border: 1px solid black;
+  color: #ffffff;
 }
 </style>

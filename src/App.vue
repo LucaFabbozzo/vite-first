@@ -1,9 +1,10 @@
 <script>
 import Another from "./components/Another.vue";
 import AppTitle from "./components/AppTitle.vue";
+import Button from "./components/Button.vue";
 
 export default {
-  components: { AppTitle, Another },
+  components: { AppTitle, Another, Button },
   name: "App",
   data() {
     return {
@@ -18,8 +19,9 @@ export default {
   <div class="title-app">
     <h1>{{ title }}</h1>
   </div>
-  <app-title />
-  <another />
+  <Button />
+  <App-title />
+  <Another />
 </template>
 
 
